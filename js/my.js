@@ -1,3 +1,4 @@
+// console.log(jQuery);
 // console.log($);
 
 // jQuery Syntax 
@@ -93,6 +94,19 @@ $(document).ready(function(){
     //     $('#sourav').fadeTo(2000, 0.3);
     // })
 
+    //Animate function in jQuery
+    // $('#sourav').animate({opacity: 0.2}, 2000);
+    
+    // $('#sourav').animate({
+    //     opacity: 0.2,
+    //     height: '200px',
+    //     width: '400px'
+    // }, 6000);                   //fast,slow
 
+    //Queue animation
+    // $('#sourav').animate({opacity: 0.2}, 2000);
+    // $('#sourav').animate({opacity: 0.8}, 1000);
+    // $('#sourav').animate({width: '400px'}, 12000);
+    // $('#sourav').stop();
 
 });
